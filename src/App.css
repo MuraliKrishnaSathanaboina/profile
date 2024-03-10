@@ -1,4 +1,4 @@
-.profile {
+/* .profile {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
@@ -35,4 +35,57 @@
 
 .profile a:hover {
   text-decoration: underline;
+} */
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.user-details {
+  text-align: center;
+}
+
+.user-details img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.bio {
+  font-style: italic;
+}
+
+.location {
+  font-weight: bold;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.project-card {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+.project-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.project-card a:hover {
+  background-color: #0056b3;
 }
