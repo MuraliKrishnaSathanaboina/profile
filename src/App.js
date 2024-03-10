@@ -42,11 +42,11 @@ const App = () => {
   const projects = [
     {
       title: 'Project 1',
-      link: 'https://example.com/project1',
+      link: 'https://muralikrishnasathanaboina.github.io/ecom-react/',
     },
     {
       title: 'Project 2',
-      link: 'https://example.com/project2',
+      link: 'https://muralikrishnasathanaboina.github.io/login_page/',
     },
     // Add more projects as needed
   ];
@@ -55,8 +55,8 @@ const App = () => {
     name: 'John Doe',
     bio: 'I am a passionate developer interested in building cool projects.',
     location: 'City, Country',
-    website: 'https://example.com',
-    avatar: 'avatar.jpg'
+    github: 'https://github.com/MuraliKrishnaSathanaboina',
+    // avatar: 'avatar.jpg'
   };
 
   const ProjectCard = ({ project }) => {
@@ -71,11 +71,11 @@ const App = () => {
   return (
     <div className="profile-container">
       <div className="user-details">
-        <img src={user.avatar} alt={user.name} />
+        {/* <img src={user.avatar} alt={user.name} /> */}
         <h1>{user.name}</h1>
-        <p className="bio">{user.bio}</p>
-        <p className="location">{user.location}</p>
-        <a href={user.website} target="_blank" rel="noopener noreferrer">Visit Website</a>
+        {/* <p className="bio">{user.bio}</p>
+        <p className="location">{user.location}</p> */}
+        <a href={user.github} target="_blank" rel="noopener noreferrer">Git Hub link</a>
       </div>
       <h2>My Projects</h2>
       <div className="projects">
